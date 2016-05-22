@@ -1,3 +1,8 @@
+import { Template } from 'meteor/templating';
+import { ReactiveVar } from 'meteor/reactive-var';
+
+import './main.html';
+
 $(document).ready(function() {
 
 	var body,table,tr,td;
@@ -20,7 +25,7 @@ $(document).ready(function() {
 		}
 	}
 
-	//console.log(table);
+	console.log(table);
 	//document.getElementById("#createTable").innerHTML("<p>Test</p>");
 
 });
