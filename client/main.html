@@ -3,25 +3,42 @@
 </head>
 
 <body>
-  <h1 style="text-align:center">Welcome to Meteor Tic Tac Toe Project</h1>
+  <h1 class="centerText">Welcome to Meteor Tic Tac Toe Project</h1>
 
-  <table>
-    <tr>
-      <td class="borderRight borderBottom" value="1"></td>
-      <td class="borderRight borderBottom" value="2"></td>
-      <td class="borderBottom" value="4"></td>
-    </tr>
-    <tr>
-      <td class="borderRight borderBottom" value="8"></td>
-      <td class="borderRight borderBottom" value="16"></td>
-      <td class="borderBottom" value="32"></td>
-    </tr>
-    <tr>
-      <td class="borderRight" value="64"></td>
-      <td class="borderRight" value="128"></td>
-      <td class="" value="256"></td>
-    </tr>
-  </table>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <table>
+          <tr>
+            <td class="borderRight borderBottom" value=""></td>
+            <td class="borderRight borderBottom" value=""></td>
+            <td class="borderBottom" value=""></td>
+          </tr>
+          <tr>
+            <td class="borderRight borderBottom" value=""></td>
+            <td class="borderRight borderBottom" value=""></td>
+            <td class="borderBottom" value=""></td>
+          </tr>
+          <tr>
+            <td class="borderRight" value=""></td>
+            <td class="borderRight" value=""></td>
+            <td class="" value=""></td>
+          </tr>
+        </table>
+      </div> <!-- End of  col-md-6 col-md-offset-3-->
+    </div> <!-- End of row -->
+
+
+    <div class="row">
+      <div style="padding-top:20px" class="col-md-6 col-md-offset-3 centerText">
+        <input class="btn btn-success" type="button" value="Start!" />
+        <input class="btn btn-default" type="button" value="Reset" />
+      </div> <!-- End of col-md-6 col-md-offset-3 -->
+    </div> <!-- End of row -->
+
+
+  </div> <!-- End of container -->
+
   
 
 </body>

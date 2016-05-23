@@ -18,6 +18,10 @@ td {
 	text-align: center;
 }
 
+.centerText {
+	text-align: center;
+}
+
 .borderLeft {
 	border-left: 3px solid black;
 }
