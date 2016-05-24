@@ -5,6 +5,7 @@
 <body>
   <h1 class="centerText">Welcome to Meteor Tic Tac Toe Project</h1>
 
+  <!-- This is the container for the board -->
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
@@ -29,10 +30,11 @@
     </div> <!-- End of row -->
 
 
+    <!-- Buttons to start game and reset games are below -->
     <div class="row">
       <div style="padding-top:20px" class="col-md-6 col-md-offset-3 centerText">
-        <input class="btn btn-success" type="button" value="Start!" />
-        <input class="btn btn-default" type="button" value="Reset" />
+        <input id="startGame" class="btn btn-success" type="button" value="Start!" />
+        <input id="resetGame" class="btn btn-default" type="button" value="Reset" />
       </div> <!-- End of col-md-6 col-md-offset-3 -->
     </div> <!-- End of row -->
 
