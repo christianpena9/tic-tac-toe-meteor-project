@@ -2,7 +2,6 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
-import '../imports/startup/client/index.js';
 
 $(document).ready(function() {
 
@@ -10,7 +9,7 @@ $(document).ready(function() {
 	var playerO = 'O';
 
 
-	
+
 
 
 
