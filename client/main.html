@@ -11,30 +11,35 @@
       <div class="col-md-6 col-md-offset-3">
         <table>
           <tr>
-            <td class="borderRight borderBottom" value=""></td>
-            <td class="borderRight borderBottom" value=""></td>
-            <td class="borderBottom" value=""></td>
+            <td id="a1" class="borderRight borderBottom"></td>
+            <td id="a2" class="borderRight borderBottom"></td>
+            <td id="a3" class="borderBottom"></td>
           </tr>
           <tr>
-            <td class="borderRight borderBottom" value=""></td>
-            <td class="borderRight borderBottom" value=""></td>
-            <td class="borderBottom" value=""></td>
+            <td id="b1" class="borderRight borderBottom"></td>
+            <td id="b2" class="borderRight borderBottom"></td>
+            <td id="b3" class="borderBottom"></td>
           </tr>
           <tr>
-            <td class="borderRight" value=""></td>
-            <td class="borderRight" value=""></td>
-            <td class="" value=""></td>
+            <td id="c3" class="borderRight"></td>
+            <td id="c2" class="borderRight"></td>
+            <td id="c3" class=""></td>
           </tr>
         </table>
       </div> <!-- End of  col-md-6 col-md-offset-3-->
     </div> <!-- End of row -->
 
+    <!-- Span to display current players turn -->
+    <div class="row">
+        <div class="col-md-12">
+            <span class="currentPlayer"></span>
+        </div>
+    </div>
 
     <!-- Buttons to start game and reset games are below -->
     <div class="row">
       <div style="padding-top:20px" class="col-md-6 col-md-offset-3 centerText">
-        <input id="startGame" class="btn btn-success" type="button" value="Start!" />
-        <input id="resetGame" class="btn btn-default" type="button" value="Reset" />
+        <input id="restart" class="btn btn-success" type="button" value="New Game" />
       </div> <!-- End of col-md-6 col-md-offset-3 -->
     </div> <!-- End of row -->
 
